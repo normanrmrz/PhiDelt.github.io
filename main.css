@@ -1,3 +1,23 @@
+#myCarousel{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carousel-inner .item {
+  height:500px;
+}
+
+.pull-left{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+}
+
+.pull-right{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .centered {
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -8,16 +28,52 @@
   font-weight: 200
 }
 
+.header{
+  background-image: url('photos/Phikeia.jpg');
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color:white;
+  font-weight: bold;
+  background-color: gray;
+
+}
+.header h1{
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.headercont{
+    background-color: #00233d;
+    border-bottom: 1px solid #dbdbdb;
+      margin-bottom: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+    }
+
 .blue{
-  background: #2c3e50;
+  background: #00233d;
+  color:white;
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.blue p, h1, h2, h3, h4{
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
+.bluef{
+  background: #00233d;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color:white;
+  text-align: center;
+}
+
+.white{
+  color:black;
+  text-align: center;
+}
+
+span.glyphicon-envelope {
+    font-size: 2em;
 }
 
 .nav a {
@@ -32,28 +88,42 @@
   display: inline;
 }
 
+.mainheader{
+  background-image: url('photos/chapter.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color:white;
+  font-weight: bold;
+  background-color: white;
+
+}
+}
 .jumbotron {
-  background-image:url('https://www.phideltatheta.org/resources/brand/facebook_cover_3.jpg');
+  background-image: url('photos/chapter.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container {
+  color: white;
   position: relative;
   top:100px;
 }
 
-.jumbotron h1 {
-  color: #fff;
+.jumbotron h2 {
   font-family: 'Raleway', sans-serif;
-  font-size: 48px;  
+  font-size: 30px;  
   font-weight: 200;
-  font-weight: bold;
   position: absolute;
-  top: -100px;
+  top: -150px;
   left: 0px;
+  text-align: center;
 }
+
 
 .jumbotron p {
   font-size: 20px;
@@ -94,5 +164,13 @@
 
 .contact {
   text-align: center;
+  color:black;
+}
+
+.mycontainer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
     
